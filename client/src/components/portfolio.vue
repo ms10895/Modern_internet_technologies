@@ -30,17 +30,17 @@ export default {
             {
                 img: 'src/something/img.png',
                 headIng: 'photography',
-                des: 'do it now!'
+                des: 'test'
             },
             {
                 img: 'src/something/img.png',
                 headIng: 'explore',
-                des: 'graphic designing!'
+                des: 'mit!'
             },
             {
                 img: 'src/something/img.png',
                 headIng: 'travel',
-                des: 'nanaga parbat'
+                des: 'thd'
             }
         
         ]

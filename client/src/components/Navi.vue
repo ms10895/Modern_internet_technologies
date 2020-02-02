@@ -8,8 +8,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
+
+            
+
           <li class="nav-item">
-            <router-link to="/products" class="nav-link js-scroll-trigger">Products</router-link>
+            <router-link to="/products" class="nav-link js-scroll-trigger">{{$t("nav.product")}}</router-link>
             <!-- <a class="nav-link js-scroll-trigger" href="#/products">Products</a> -->
           </li>
           
@@ -17,13 +20,13 @@
             <router-link class="nav-link js-scroll-trigger" to= "/portfolio" >Portfolio</router-link>
           </li> -->
           <li class="nav-item" >
-            <router-link class="nav-link js-scroll-trigger" to= "/about" >About</router-link>
+            <router-link class="nav-link js-scroll-trigger" to= "/about" >{{$t("nav.about")}}</router-link>
           </li>
           <li class="nav-item" v-if=!isLoggedIn>
             <router-link class="nav-link js-scroll-trigger" to= "/login" >Login</router-link>
           </li>
            <li class="nav-item" v-if=!isLoggedIn>
-            <a class="nav-link js-scroll-trigger" href="#/register">register</a>
+            <a class="nav-link js-scroll-trigger" href="#/register">{{$t("nav.register")}}</a>
           </li>
           <li class="nav-item" v-if=!isLoggedIn>
             <a class="nav-link js-scroll-trigger" href="#/contact">Contact</a>
@@ -34,6 +37,11 @@
           <li class="nav-item" v-if=isLoggedIn >
             <a class="nav-link js-scroll-trigger" href="#/contact" @click.prevent="logoutusr">Logout</a>
           </li>
+          <li class="nav-item">
+  <center> <select style="background-color:#212529" class ="nav-link js-scroll-trigger" v-model="$i18n.locale">
+      <option  v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">{{ lang }}</option>
+    </select> </center>
+  </li> 
         </ul>
       </div>
     </div>
@@ -47,6 +55,9 @@ import { mapGetters , mapActions} from 'vuex';
 
 export default {
     name: "Navi",
+    data () {
+    return { langs: ['en', 'de'] }
+  },
 
     computed:{
       ...mapGetters(["isLoggedIn"]),

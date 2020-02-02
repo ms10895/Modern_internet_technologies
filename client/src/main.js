@@ -14,6 +14,7 @@ import chat from './components/chat.vue'
 import store from './store'
 import axios from 'axios';
 import portfolio from './components/portfolio.vue'
+import i18n from './i18n'
 
 
 //default vue http modules for api calls
@@ -82,7 +83,7 @@ Vue.use(VueGoogleMaps, {
 new Vue({
   render: h => h(App),
   router,
+  i18n,
   store
-  
 }).$mount('#app')
 

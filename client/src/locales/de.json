@@ -1,0 +1,38 @@
+{
+    "message": "WILLkOMMEN",
+    "about":{
+      "title":"Das Fundament der Gruppe",
+      "content":"Die Erfindung des Turmdrehkrans steht für die Geburt der Firma Liebherr. Innerhalb des ersten Jahrzehnts hat sich das kleine Bauunternehmen zu einem etablierten Hersteller von Baumaschinen und vielen anderen technologisch anspruchsvollen Produkten entwickelt.",
+       "title2":"Diversifikation unter einer zentralen Holding",
+       "content2":"Ein vielseitiges Unternehmen mit zahlreichen Produktbereichen erfordert klare und effektive Führungsstrukturen. 1983 laufen daher alle Filialen unter einer zentralen Holding zusammen. Bis heute ist die Liebherr-International AG für die Leitung der Organisation verantwortlich.",
+       "title3":"Außergewöhnliches Wachstum und hohe Investitionen",
+       "content3":"Im fünften Jahrzehnt seit seiner Gründung wächst der Konzern äußerst dynamisch: Umfangreiche Investitionen sowie neue Organisationsstrukturen stärken die Wettbewerbsfähigkeit des Unternehmens im internationalen Maßstab.",
+       "title4":"Voraussicht in die Zukunft",
+       "content4":"Liebherr setzt neue Maßstäbe, z. mit der Digitalisierungskampagne im Bereich Kühlen und Gefrieren und 3D-Druck im Bereich Hydraulikkomponenten. Liebherr-Produkte werden weltweit in spannenden und spektakulären Projekten eingesetzt."
+    },
+    "product":{
+        "title1":"LP7.2 ",
+        "content1":"Die Hochdruckpumpe LP7.2 wurde für Schwerlastmotoren im On- ​​und Off-Highway-Bereich entwickelt. Wie alle Common-Rail-Hochdruckpumpen von Liebherr verfügt auch die LP7.2 über einen ölgeschmierten Antrieb und arbeitet somit auch unter rauen Umgebungsbedingungen zuverlässig. Das leichte und kompakte Design mit den Außenmaßen 252x110x230 mm (LxBxH) und einem Gewicht von ca. 7 kg ermöglichen den Einsatz in einer Vielzahl von Motoranwendungen. Die Rollenstößelpumpe mit Nockenantrieb hat im Verhältnis zum Bauraum eine hohe Förderleistung von 265 l / h bei einem Systemdruck von bis zu 2.500 bar. ",
+        "title2":"Common-Rail-Injektor LI1",
+        "content2":"Die LI1-Injektorplattform wurde für den Einsatz in großen Serien von leichten, mittleren und schweren Motoren entwickelt. Mit sehr kurzen und schlanken Bauformen und flexiblen Anschlussmaßen sorgen die kompakten Einspritzdüsen für maximale Freiheit im Bauraum des Motors.",
+        "title3":"Common-Rail-Hochdruckpumpe LP9.2",
+        "content3":"Die Hochdruckpumpe LP9.2 mit einer Fördermenge von 220 l / h eignet sich für mittelschwere und schwere Motoren mit einem Hubraum von maximal 13 l. Durch das kraftstoffgeschmierte Antriebskonzept ist die LP9.2 geeignet Kann ohne zusätzlichen Anschluss an das Motorschmiersystem integriert werden. Die leichte und kompakte Bauweise mit einem Gewicht von ca. 7 kg erleichtert den Einsatz in einer Vielzahl von Motoranwendungen.",
+        "title4":"Common-Rail-Hochdruckpumpe LP11.5_LP11.6",
+        "content4":"Die ölgeschmierten Hochdruckpumpen LP11.5 und LP11.6 wurden speziell für Großdieselanwendungen entwickelt, die vor allem in den Bereichen Bergbau, Schiene, Schifffahrt und Energieerzeugung zum Einsatz kommen. Höchste Zuverlässigkeit unter härtesten Bedingungen bei Vibrationen mit Stoßbelastungen von bis zu 10 g, Staubbelastungen und Temperaturen von 30 ° C bis +125 ° C ist hier aufgrund der weitreichenden Folgen einer Geräteabschaltung unabdingbar.",
+        "title5":"Motorsteuergerät ECU2-HD",
+        "content5":"Kompromisslos robust: Ob gesteckter oder nicht gesteckter Kabelbaum, die ECU2-HD ist in der Schutzklasse IP6K9K für den Einsatz unter extremsten Umgebungsbedingungen ausgelegt.",
+        "title6":"Motorsteuergerät ECU3",
+        "content6":"Als optimiertes Steuerungssystem für 6-Zylinder-Dieselmotoren und mobile Gasmotoren überzeugt das ECU3 im On- ​​und Offroad-Einsatz. Die ECU3 steuert alle Motorfunktionen sowie SCR- oder SCRoF-Systeme von Liebherr",
+        "title7":"Kompakt und leistungsstark",
+        "content7":"Für mittelschwere und schwere Motoren für Nutzfahrzeuge und Maschinen im On- ​​und Off-Highway-Bereich bietet Liebherr komplette Common-Rail-Systemlösungen in Modulbauweise an"
+  
+      },
+      "nav":{
+        "product":"Produkte",
+        "about":"Firma",
+        "register":"Anmeldung"
+  
+      }
+  
+    
+  }

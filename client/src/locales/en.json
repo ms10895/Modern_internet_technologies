@@ -1,0 +1,40 @@
+{
+  "message": "WELCOME",
+  "about":{
+    "title":"The foundation of the Group",
+    "content":"The invention of the tower crane is synonymous with the birth of the Liebherr company. Within the first decade, the small construction firm develops into a well-established manufacturer of construction machinery and many other technologically sophisticated products.",
+     "title2":"Diversification under one central holding company",
+     "content2":"A versatile company with numerous product divisions requires clear and effective management structures. Therefore, in 1983 all the branches converge under one central holding company. To this day, Liebherr-International AG is responsible for managing the organization.",
+     "title3":"Exceptional growth and high investments",
+     "content3":"n the fifth decade since it was founded, the Group grows extremely dynamically: extensive investments as well as new organizational structures reinforce the competitiveness of the company on an international scale.",
+     "title4":"Long-range view into the future",
+     "content4":"Liebherr sets new standards, e.g. with the digitalisation campaign in the area of refrigeration and freezing and 3D print in the area of hydraulic components. Liebherr products are used worldwide in exciting and spectacular projects."
+    
+
+    },
+    "product":{
+      "title1":"LP7.2 ",
+      "content1":"The high pressure pump LP7.2 was developed for heavy-duty engines in the on- and off-highway area. Like all common rail high-pressure pumps from Liebherr, the LP7.2 also has an oil-lubricated drive, which means that it works reliably even under harsh environmental conditions. The light and compact design with the external dimensions 252x110x230 mm (LxWxH) and a weight of approx. 7 kg enables use in a wide variety of motor applications. In relation to its installation space, the roller tappet pump with cam drive has a high flow rate of 265 l / h at a system pressure of up to 2,500 bar. ",
+      "title2":"Common rail injector LI1",
+      "content2":"The LI1 injector platform was developed for use in large series of light, medium and heavy-duty engines. With very short and slim designs and flexible connection dimensions, the compactly designed injectors ensure maximum freedom in the installation space of the engine.",
+      "title3":"Common Rail High Pressure Pump LP9.2",
+      "content3":"The LP9.2 high-pressure pump with a flow rate of 220 l / h is suitable for medium- and heavy-duty engines with a total displacement up to 13 l maximum.Due to the fuel-lubricated drive concept, the LP9.2 can be integrated without additional connection to the engine lubrication system.The lightweight and compact design with a weight of approximately 7 kg makes it easy to use in a wide variety of engine applications.",
+      "title4":"Common-rail high-pressure pumpLP11.5_LP11.6",
+      "content4":"he oil-lubricated high-pressure pumps LP11.5 and LP11.6 were specially developed for large diesel applications, which are used primarily in the mining, rail, marine and power generation sectors. Maximum reliability under the toughest conditions with regard to vibrations with shock loads of up to 10 g, dust loads and temperatures from 30 ° C to +125 ° C is imperative here due to the far-reaching consequences of a device shutdown.",
+      "title5":"Engine control unit ECU2-HD",
+      "content5":"Uncompromisingly robust: Whether plugged or unplugged cable harness, the ECU2-HD is designed with protection class IP6K9K for use under the most extreme environmental conditions.",
+      "title6":"Engine control unit ECU3",
+      "content6":"As an optimized control system for 6-cylinder diesel engines and mobile gas engines, the ECU3 convinces in on- and off-road applications. The ECU3 controls all engine functions as well as SCR or SCRoF systems from Liebherr",
+      "title7":"Compact and powerful",
+      "content7":"Liebherr offers robust common rail systems for large engines in the power range up to five megawatts. Injectors with an integrated high-pressure accumulator ensure a very low pressure drop and precise metering of the injection quantity."
+
+    },
+    "nav":{
+      "product":"product",
+      "about":"About",
+      "register":"Register"
+
+    }
+
+  
+}

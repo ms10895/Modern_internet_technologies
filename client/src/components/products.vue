@@ -8,35 +8,119 @@
         </div>
       </div>
       <div class="row" >
-        <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portjason" :key="key">
+        <div class="col-md-4 col-sm-6 portfolio-item" >
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-             <img class="img-fluid" :src="obj.img" alt=""> 
+             <img class="img-fluid" src="../assets/img/lp7.2.png" alt=""> 
           </a>
           <div class="portfolio-caption">
-            <h4>{{obj.title}}</h4>
-            <p class="text-muted">{{obj.caption}}</p>
+            <h4>{{$t('product.title1')}}</h4>
+            <p class="text-muted">{{$t('product.content1')}}</p>
           </div>
         </div>
+        <div class="col-md-4 col-sm-6 portfolio-item" >
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+             <img class="img-fluid" src="../assets/img/high.jpg" alt=""> 
+          </a>
+          <div class="portfolio-caption">
+            <h4>{{$t('product.title2')}}</h4>
+            <p class="text-muted">{{$t('product.content2')}}</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item" >
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+             <img class="img-fluid" src="../assets/img/lp11.5_lp.png" alt=""> 
+          </a>
+          <div class="portfolio-caption">
+            <h4>{{$t('product.title3')}}</h4>
+            <p class="text-muted">{{$t('product.content3')}}</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item" >
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+             <img class="img-fluid" src="../assets/img/euc2.png" alt=""> 
+          </a>
+          <div class="portfolio-caption">
+            <h4>{{$t('product.title4')}}</h4>
+            <p class="text-muted">{{$t('product.content4')}}</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item" >
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+             <img class="img-fluid" src="../assets/img/euc3.png" alt=""> 
+          </a>
+          <div class="portfolio-caption">
+            <h4>{{$t('product.title5')}}</h4>
+            <p class="text-muted">{{$t('product.content5')}}</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item" >
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+             <img class="img-fluid" src="../assets/img/kompakt.png" alt=""> 
+          </a>
+          <div class="portfolio-caption">
+            <h4>{{$t('product.title6')}}</h4>
+            <p class="text-muted">{{$t('product.content6')}}</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 portfolio-item" >
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+             <img class="img-fluid" src="../assets/img/fex.png" alt=""> 
+          </a>
+          <div class="portfolio-caption">
+            <h4>{{$t('product.title7')}}</h4>
+            <p class="text-muted">{{$t('product.content7')}}</p>
+          </div>
+        </div>
+        
        
       </div>
     </div>
   </section>
 </template>
 <script>
+//import i18n from '@/i18n'
+
 export default {
   name:"products",
+  
     data: ()=>({
         portjason:[
-            {
-                img: require('../assets/img/lp7.2.png'),
-                title: 'Common rail high pressure pump LP7.2',
-                caption: 'The high pressure pump LP7.2 was developed for heavy-duty engines in the on- and off-highway area. Like all common rail high-pressure pumps from Liebherr, the LP7.2 also has an oil-lubricated drive, which means that it works reliably even under harsh environmental conditions. The light and compact design with the external dimensions 252x110x230 mm (LxWxH) and a weight of approx. 7 kg enables use in a wide variety of motor applications. In relation to its installation space, the roller tappet pump with cam drive has a high flow rate of 265 l / h at a system pressure of up to 2,500 bar.'
-            },
+            
             {
                 img:require ('../assets/img/l1.png'),
                 title: 'Common rail injector LI1',
@@ -80,6 +164,9 @@ export default {
         
         ]
     })
+    
+  
+   
     
 }
 </script>

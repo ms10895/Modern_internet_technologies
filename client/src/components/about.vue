@@ -17,10 +17,10 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>1949-1960</h4>
-                  <h4 class="subheading">The foundation of the Group</h4>
+                  <h4 class="subheading">{{$t('about.title')}}</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">The invention of the tower crane is synonymous with the birth of the Liebherr company. Within the first decade, the small construction firm develops into a well-established manufacturer of construction machinery and many other technologically sophisticated products.</p>
+                  <p class="text-muted">{{$t('about.content')}}</p>
                 </div>
               </div>
             </li>
@@ -31,10 +31,10 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>1981-1990</h4>
-                  <h4 class="subheading">Diversification under one central holding company</h4>
+                  <h4 class="subheading">{{$t('about.title2')}}</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted"> A versatile company with numerous product divisions requires clear and effective management structures. Therefore, in 1983 all the branches converge under one central holding company. To this day, Liebherr-International AG is responsible for managing the organization.</p>
+                  <p class="text-muted"> {{$t('about.content2')}}</p>
                 </div>
               </div>
             </li>
@@ -45,10 +45,10 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>2001-2010</h4>
-                  <h4 class="subheading">Exceptional growth and high investments</h4>
+                  <h4 class="subheading">{{$t('about.title3')}}</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">In the fifth decade since it was founded, the Group grows extremely dynamically: extensive investments as well as new organizational structures reinforce the competitiveness of the company on an international scale.</p>
+                  <p class="text-muted">{{$t('about.content3')}}</p>
                 </div>
               </div>
             </li>
@@ -59,10 +59,10 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>Since 2016</h4>
-                  <h4 class="subheading">Long-range view into the future</h4>
+                  <h4 class="subheading">{{$t('about.title4')}}</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Liebherr sets new standards, e.g. with the digitalisation campaign in the area of refrigeration and freezing and 3D print in the area of hydraulic components. Liebherr products are used worldwide in exciting and spectacular projects.</p>
+                  <p class="text-muted"> {{$t('about.content4')}}</p>
                 </div>
               </div>
             </li>
