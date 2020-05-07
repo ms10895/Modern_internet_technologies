@@ -19,8 +19,8 @@ App requires [Node.js](https://nodejs.org/) v4+ to run.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ cd serverside
 $ npm install 
+$ npm audit fix
 $ npm run server
 ```
 
@@ -30,6 +30,7 @@ Write In New Terminal Window.
 ```sh
 $ cd client
 $ npm install 
+$ npm audit fix
 $ npm run serve
 ```
 
