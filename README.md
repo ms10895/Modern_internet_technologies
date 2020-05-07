@@ -10,7 +10,7 @@ Application uses a number of open source projects to work properly:
 * [Express](https://expressjs.com/)- fast node.js network app framework 
 * Socket.io - JavaScript library for realtime web applications
 * [MongoDb](https://mongodb.com) - HTML to Markdown converter
-* [GoogleMaps](https://developers.google.com/maps/documentation)-Vue I18n is internationalization plugin for Vue.js
+* [GoogleMaps](https://developers.google.com/maps/documentation)-Google Maps is a web mapping service developed by Google.
 
 ### Installation
 
